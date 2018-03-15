@@ -1,4 +1,4 @@
-FROM adrianliaw/jupyter-irkernel/
+FROM adrianliaw/jupyter-irkernel
 #
 #FROM andrewosh/binder-base
 #
