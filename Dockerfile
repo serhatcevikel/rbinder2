@@ -5,7 +5,7 @@ USER root
 # Add R dependencies
 RUN apt-get update
 
-RUN apt-get -y build-dep libcurl4-gnutls-dev
+#RUN apt-get -y build-dep libcurl4-gnutls-dev
 RUN apt-get -y install libcurl4-gnutls-dev
 
 RUN apt-get install -y r-base libzmq3-dev
