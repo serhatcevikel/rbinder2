@@ -1,4 +1,5 @@
-FROM dclong/jupyterlab-rb
+FROM jupyter/r-notebook/
+#FROM dclong/jupyterlab-rb
 #FROM adrianliaw/jupyter-irkernel
 #
 #FROM andrewosh/binder-base
