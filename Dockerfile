@@ -1,4 +1,4 @@
-FROM jupyter/r-notebook/
+FROM jupyter/r-notebook
 #FROM dclong/jupyterlab-rb
 #FROM adrianliaw/jupyter-irkernel
 #
