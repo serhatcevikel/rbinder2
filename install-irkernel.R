@@ -1,5 +1,3 @@
-install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
-                 repos = c('http://irkernel.github.io/',
-                           'http://cran.us.r-project.org'))
-
+install.packages("devtools")
+devtools::install_github("IRkernel/IRkernel")
 IRkernel::installspec()
